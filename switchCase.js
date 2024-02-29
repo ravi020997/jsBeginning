@@ -1,6 +1,6 @@
 // Switch Case Statement:
 
-var day = 0;
+var day = 3;
 switch (day) {
   case 0:
     console.log("Sunday");
@@ -24,5 +24,5 @@ switch (day) {
     console.log("Saturday");
     break;
   default:
-    "Not Found";
+    console.log("Not Found");
 }
