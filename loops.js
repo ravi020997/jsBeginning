@@ -80,3 +80,10 @@ for (var i = 0; i < fruits.length; i++) {
   }
 }
 
+// Another Question printing reverse value on array:
+
+var names = "Lucknow University";
+
+for (var i = names.length - 1 ; i >= 0; i--) {
+    console.log(names[i]);
+}
