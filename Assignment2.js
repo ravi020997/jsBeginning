@@ -9,7 +9,7 @@
     6.Count the number of vowels of given string array:
 */
 
-
+// Question 1 solution:
 
 var num = 5;
 sum = " ";
@@ -19,7 +19,7 @@ for (var i = 0; i < num; i++) {
     console.log(sum);
   }
 }
-// Question 1 Solution
+// Question 2 Solution
 var count = 10;
 var i = 0;
 while (i < count) {
