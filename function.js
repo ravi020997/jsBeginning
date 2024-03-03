@@ -1,7 +1,7 @@
-function name() {
+function names() {
   console.log("Ravi");
 }
-name();
+names();
 
 function area(l, b){
     var Area = l * b;
