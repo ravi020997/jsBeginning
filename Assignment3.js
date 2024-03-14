@@ -1,5 +1,4 @@
-/* Given a number find it is divisible or Non-divisible:
-finding divisible */
+// Given a number find it is divisible or Non-divisible:
 
 function number(nums) {
   if (nums % 3 == 0) {
