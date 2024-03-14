@@ -1,4 +1,5 @@
-// Given a number find it is divisible or Non-divisible:
+/* Given a number find it is divisible or Non-divisible:
+finding divisible */
 
 function number(nums) {
   if (nums % 3 == 0) {
@@ -116,16 +117,17 @@ function strVowels(nouns) {
 var strName = "Human Being";
 var emp = " ";
 
-for(var i = 0; i < strName.length; i++){
-    if(! strVowels(strName[i])){
-       emp = emp + strName[i];
-    }
-}console.log(emp);
+for (var i = 0; i < strName.length; i++) {
+  if (!strVowels(strName[i])) {
+    emp = emp + strName[i];
+  }
+}
+console.log(emp);
 // input= [1,2,3,-2,24]; output;28
- 
-var Arr = [5,10,15,-19,20]
+
+var Arr = [5, 10, 15, -19, 20];
 var sum = 0;
-for(var i = 0; i < Arr.length; i++){
-    sum = sum + Arr[i];
+for (var i = 0; i < Arr.length; i++) {
+  sum = sum + Arr[i];
 }
 console.log(sum);
