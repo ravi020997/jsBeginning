@@ -11,7 +11,7 @@
     as long format like "Monday" "Tuesday"...
  */
 
-// First Question Solution:
+// 1 Question Solution:
 
 var A = 4;
 var B = 6;
