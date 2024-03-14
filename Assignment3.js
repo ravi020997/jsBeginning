@@ -121,9 +121,8 @@ for(var i = 0; i < strName.length; i++){
        emp = emp + strName[i];
     }
 }console.log(emp);
-
 // input= [1,2,3,-2,24]; output;28
-
+ 
 var Arr = [5,10,15,-19,20]
 var sum = 0;
 for(var i = 0; i < Arr.length; i++){

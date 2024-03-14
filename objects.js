@@ -26,5 +26,30 @@ delete person.Gender;
 console.log(person);
 
 
-// methods in object:
+//Using Function in Object:
+
+var grocery = {
+    rice:2,
+    dal:5,
+    oil:3,
+    total:function(){
+        var sum = this.rice + this.dal + this.oil;
+        console.log(sum);
+        
+    }
+}
+grocery.total();
+
+// Using For(in) in Object:
+
+var Department = {
+    Name: "CSE",
+    Total_Members:  15,
+    Ass_Professor:  6,
+    Guest_teacher:  7,
+    Lab_Technician: 2
+}
+    for(key in Department){
+        console.log(Department[key])
+}
 
