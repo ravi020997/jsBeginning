@@ -9,7 +9,7 @@
     6.Count the number of vowels of given string array:
 */
 
-// Question 1 solution:
+// 1 solution:
 
 var num = 5;
 sum = " ";
